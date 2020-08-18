@@ -1,0 +1,18 @@
+---
+title: "Unit 1 Iris"
+author: "Allen Miller"
+date: "8/18/2020"
+output: html_document
+---
+
+# Iris Data
+##Summary of Sepal Lenght
+
+```{r}
+# summary of the Iris Data
+summary(iris$Sepal.Length)
+```
+
+```{r}
+hist(iris$Sepal.Length, col = "blue", main = "Histogram of Sepal Lenght", xlab = "Iris Sepal Lenght")
+```
